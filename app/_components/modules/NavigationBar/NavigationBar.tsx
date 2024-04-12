@@ -33,25 +33,25 @@ export default function NavigationBar() {
                                 className="hidden 2xl:block"
                             />
                         </Link>
-                        <div className="hidden md:block border-4 bg-black-6 border-black-12 py-2 2xl:py-2.5 px-3.5 2xl:px-4 rounded-xl">
-                            <ul className="flex text-sm 2xl:text-lg">
+                        <div className="hidden md:block border-4 bg-black-6 border-black-12 py-2 2xl:py-2.5 px-2 2xl:px-2.5 rounded-xl">
+                            <ul className="flex text-sm 2xl:text-lg gap-2 2xl:gap-2.5">
                                 <li>
-                                    <Link href='/' className="block py-3 2xl:py-3.5 px-4 2xl:px-6 text-gray-75 rounded-lg transition-colors hover:text-white hover:bg-black-10">
+                                    <Link href='/' className="block py-3 2xl:py-3.5 px-5 2xl:px-6 text-gray-75 rounded-lg transition-colors hover:text-white hover:bg-black-10">
                                         Home
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/' className="block py-3 2xl:py-3.5 px-4 2xl:px-6 text-gray-75 rounded-lg transition-colors hover:text-white hover:bg-black-10">
+                                    <Link href='/' className="block py-3 2xl:py-3.5 px-5 2xl:px-6 text-gray-75 rounded-lg transition-colors hover:text-white hover:bg-black-10">
                                         Movies & Shows
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/' className="block py-3 2xl:py-3.5 px-4 2xl:px-6 text-gray-75 rounded-lg transition-colors hover:text-white hover:bg-black-10">
+                                    <Link href='/' className="block py-3 2xl:py-3.5 px-5 2xl:px-6 text-gray-75 rounded-lg transition-colors hover:text-white hover:bg-black-10">
                                         Support
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/' className="block py-3 2xl:py-3.5 px-4 2xl:px-6 text-gray-75 rounded-lg transition-colors hover:text-white hover:bg-black-10">
+                                    <Link href='/' className="block py-3 2xl:py-3.5 px-5 2xl:px-6 text-gray-75 rounded-lg transition-colors hover:text-white hover:bg-black-10">
                                         Subscriptions
                                     </Link>
                                 </li>
