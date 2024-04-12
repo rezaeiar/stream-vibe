@@ -1,3 +1,4 @@
+import NavigationBar from "../_components/modules/NavigationBar/NavigationBar";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body className="font-manrope-medium bg-[#1e1e1e]">
+                <NavigationBar />
+                {children}
+            </body>
         </html>
     );
 }
