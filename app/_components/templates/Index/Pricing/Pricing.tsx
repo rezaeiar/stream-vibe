@@ -5,13 +5,13 @@ export default function Pricing() {
     return (
         <div>
             <div className="container">
-                <div className="flex flex-col gap-10 md:gap-14 2xl:gap-20">
-                    <div className="flex flex-col md:flex-row gap-5">
+                <div className="flex flex-col gap-10 lg:gap-14 2xl:gap-20">
+                    <div className="flex flex-col lg:flex-row gap-5">
                         <div className="flex flex-col gap-2.5 2xl:gap-3.5">
-                            <h3 className='text-2xl md:text-3xl 2xl:text-4xl font-manrope-bold text-white'>
+                            <h3 className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-bold text-white'>
                                 Choose the plan that's right for you
                             </h3>
-                            <span className='text-sm md:text-base 2xl:text-lg font-manrope-regular text-gray-60'>
+                            <span className='text-sm lg:text-base 2xl:text-lg font-manrope-regular text-gray-60'>
                                 Join StreamVibe and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!
                             </span>
                         </div>
@@ -30,21 +30,21 @@ export default function Pricing() {
                             </ul>
                         </div>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-5 2xl:gap-8">
-                        <div className="p-6 md:p-10 2xl:p-12 bg-black-10 border border-black-15 rounded-xl flex flex-col gap-8 md:gap-10 2xl:gap-12">
-                            <div className="flex flex-col gap-2.5 md:gap-3 2xl:gap-4">
-                                <h4 className='font-manrope-bold text-lg md:text-xl 2xl:text-2xl text-white'>
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 2xl:gap-8">
+                        <div className="p-6 lg:p-10 2xl:p-12 bg-black-10 border border-black-15 rounded-xl flex flex-col gap-8 lg:gap-10 2xl:gap-12">
+                            <div className="flex flex-col gap-2.5 lg:gap-3 2xl:gap-4">
+                                <h4 className='font-manrope-bold text-lg lg:text-xl 2xl:text-2xl text-white'>
                                     Basic Plan
                                 </h4>
-                                <span className='font-manrope-regular text-sm md:text-base 2xl:text-lg text-gray-60'>
+                                <span className='font-manrope-regular text-sm lg:text-base 2xl:text-lg text-gray-60'>
                                     Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.
                                 </span>
                             </div>
                             <div className="">
-                                <span className='text-2xl md:text-3xl 2xl:text-4xl font-manrope-semibold text-white'>
+                                <span className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-semibold text-white'>
                                     $9.99
                                 </span>
-                                <span className='text-sm md:text-base 2xl:text-lg text-gray-60 font-manrope-medium'>
+                                <span className='text-sm lg:text-base 2xl:text-lg text-gray-60 font-manrope-medium'>
                                     /month
                                 </span>
                             </div>
@@ -57,20 +57,20 @@ export default function Pricing() {
                                 </button>
                             </div>
                         </div>
-                        <div className="p-6 md:p-10 2xl:p-12 bg-black-10 border border-black-15 rounded-xl flex flex-col gap-8 md:gap-10 2xl:gap-12">
-                            <div className="flex flex-col gap-2.5 md:gap-3 2xl:gap-4">
-                                <h4 className='font-manrope-bold text-lg md:text-xl 2xl:text-2xl text-white'>
+                        <div className="p-6 lg:p-10 2xl:p-12 bg-black-10 border border-black-15 rounded-xl flex flex-col gap-8 lg:gap-10 2xl:gap-12">
+                            <div className="flex flex-col gap-2.5 lg:gap-3 2xl:gap-4">
+                                <h4 className='font-manrope-bold text-lg lg:text-xl 2xl:text-2xl text-white'>
                                     Basic Plan
                                 </h4>
-                                <span className='font-manrope-regular text-sm md:text-base 2xl:text-lg text-gray-60'>
+                                <span className='font-manrope-regular text-sm lg:text-base 2xl:text-lg text-gray-60'>
                                     Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.
                                 </span>
                             </div>
                             <div className="">
-                                <span className='text-2xl md:text-3xl 2xl:text-4xl font-manrope-semibold text-white'>
+                                <span className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-semibold text-white'>
                                     $9.99
                                 </span>
-                                <span className='text-sm md:text-base 2xl:text-lg text-gray-60 font-manrope-medium'>
+                                <span className='text-sm lg:text-base 2xl:text-lg text-gray-60 font-manrope-medium'>
                                     /month
                                 </span>
                             </div>
@@ -83,20 +83,20 @@ export default function Pricing() {
                                 </button>
                             </div>
                         </div>
-                        <div className="p-6 md:p-10 2xl:p-12 bg-black-10 border border-black-15 rounded-xl flex flex-col gap-8 md:gap-10 2xl:gap-12">
-                            <div className="flex flex-col gap-2.5 md:gap-3 2xl:gap-4">
-                                <h4 className='font-manrope-bold text-lg md:text-xl 2xl:text-2xl text-white'>
+                        <div className="p-6 lg:p-10 2xl:p-12 bg-black-10 border border-black-15 rounded-xl flex flex-col gap-8 lg:gap-10 2xl:gap-12">
+                            <div className="flex flex-col gap-2.5 lg:gap-3 2xl:gap-4">
+                                <h4 className='font-manrope-bold text-lg lg:text-xl 2xl:text-2xl text-white'>
                                     Basic Plan
                                 </h4>
-                                <span className='font-manrope-regular text-sm md:text-base 2xl:text-lg text-gray-60'>
+                                <span className='font-manrope-regular text-sm lg:text-base 2xl:text-lg text-gray-60'>
                                     Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.
                                 </span>
                             </div>
                             <div className="">
-                                <span className='text-2xl md:text-3xl 2xl:text-4xl font-manrope-semibold text-white'>
+                                <span className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-semibold text-white'>
                                     $9.99
                                 </span>
-                                <span className='text-sm md:text-base 2xl:text-lg text-gray-60 font-manrope-medium'>
+                                <span className='text-sm lg:text-base 2xl:text-lg text-gray-60 font-manrope-medium'>
                                     /month
                                 </span>
                             </div>
