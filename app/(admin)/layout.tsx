@@ -1,4 +1,5 @@
 import NavigationBar from "../_components/modules/NavigationBar/NavigationBar";
+import Footer from "../_components/modules/Footer/Footer";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -17,6 +18,7 @@ export default function RootLayout({
             <body className="font-manrope-medium bg-[#1e1e1e]">
                 <NavigationBar />
                 {children}
+                <Footer />
             </body>
         </html>
     );
