@@ -45,6 +45,9 @@ const config: Config = {
                 "manrope-medium": "Manrope-Medium",
                 "manrope-semibold": "Manrope-SemiBold",
                 "manrope-bold": "Manrope-Bold",
+            },
+            backgroundImage: {
+                'cta-pattern': "url('/images/banners/CTA.png')",
             }
         },
         container: {
