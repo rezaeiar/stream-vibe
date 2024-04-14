@@ -16,8 +16,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className="font-manrope-medium bg-[#141414] flex flex-col gap-8 lg:gap-12 2xl:gap-16">
-                <NavigationBar />
+            <body className="font-manrope-medium bg-[#141414] flex flex-col gap-16 lg:gap-20 2xl:gap-24">
                 {children}
                 <CTA />
                 <Footer />
