@@ -1,3 +1,4 @@
 export type HeaderProps = {
-    component?: React.ReactNode
+    component?: React.ReactNode,
+    isNavigationBarFloat?: boolean
 }

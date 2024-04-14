@@ -1,9 +1,10 @@
-import Image from "next/image"
+import { NavigationBarProps } from "@/app/_types/components/NavigationBar/NavigationBar.types"
 import Link from "next/link"
+import Image from "next/image"
 
-export default function NavigationBar() {
+export default function NavigationBar({ float }: NavigationBarProps) {
     return (
-        <div className="py-3.5 lg:py-6 2xl:py-8">
+        <div className={`py-3.5 lg:py-6 2xl:py-8 absolute top-0 w-full z-30 ${float ? 'absolute top-0' : "relative"}`}>
             <div className="container">
                 <div className="flex justify-between items-center">
                     <div className="w-full flex justify-between items-center">

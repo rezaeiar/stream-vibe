@@ -1,13 +1,12 @@
-import Pricing from "../_components/modules/Pricing/Pricing";
 import Header from "../_components/modules/Header/Header";
-import Categories from "../_components/templates/Index/Categories/Categories";
+import HeroSection from "../_components/templates/Index/HeroSection/HeroSection";
 import Devices from "../_components/templates/Index/Devices/Devices";
+import Pricing from "../_components/modules/Pricing/Pricing";
 
 export default function Home() {
     return (
         <>
-            <Header />
-            {/* // <Categories /> */}
+            <Header component={<HeroSection />} isNavigationBarFloat />
             <Devices />
             <Pricing />
         </>
