@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Information() {
     return (
-        <div className='p-6 lg:p-10 2xl:p-12 bg-black-10 rounded-lg lg:rounded-xl border border-black-15 flex flex-col gap-6 lg:gap-8 2xl:gap-10'>
+        <div className='p-6 lg:p-10 2xl:p-12 bg-black-10 rounded-lg lg:rounded-xl border border-black-15 flex flex-col gap-6 lg:gap-8 2xl:gap-10 sticky top-4'>
             <div className="flex flex-col gap-2.5">
                 <div className="flex text-gray-60 items-center gap-0.5">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
