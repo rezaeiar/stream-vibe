@@ -2,6 +2,7 @@ import Header from "../_components/modules/Header/Header";
 import HeroSection from "../_components/templates/Index/HeroSection/HeroSection";
 import Categories from "../_components/templates/Index/Categories/Categories";
 import Devices from "../_components/templates/Index/Devices/Devices";
+import FAQ from "../_components/modules/FAQ/FAQ";
 import Pricing from "../_components/modules/Pricing/Pricing";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
             <Header component={<HeroSection />} isNavigationBarFloat />
             <Categories />
             <Devices />
+            <FAQ />
             <Pricing />
         </>
     );
