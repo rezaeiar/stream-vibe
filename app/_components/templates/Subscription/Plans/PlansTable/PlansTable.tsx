@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PlansTable() {
     return (
-        <div className="border rounded-lg 2xl:rounded-xl overflow-hidden border-black-15">
+        <div className="border rounded-lg 2xl:rounded-xl overflow-hidden border-black-15 hidden lg:block">
             <table className="table-auto overflow-hidden">
                 <thead className='text-white bg-black-6 text-lg 2xl:text-xl font-manrope-semibold'>
                     <tr className='*:p-6 2xl:*:p-8 grid grid-cols-4 *:text-start divide-x divide-black-15'>

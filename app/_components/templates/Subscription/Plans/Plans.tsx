@@ -1,9 +1,10 @@
 import React from 'react'
 import PlansTable from './PlansTable/PlansTable'
+import PlansTableMobile from './PlansTableMobile/PlansTableMobile'
 
 export default function Plans() {
     return (
-        <div className='hidden lg:block'>
+        <div>
             <div className="container">
                 <div className="flex flex-col gap-14 2xl:gap-20">
                     <div className="flex flex-col gap-2.5 2xl:gap-3.5">
@@ -15,6 +16,7 @@ export default function Plans() {
                         </span>
                     </div>
                     <PlansTable />
+                    <PlansTableMobile />
                 </div>
             </div>
         </div>
