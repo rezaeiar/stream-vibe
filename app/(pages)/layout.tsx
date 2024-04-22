@@ -1,7 +1,7 @@
-import NavigationBar from "../_components/modules/NavigationBar/NavigationBar";
 import CTA from "../_components/modules/CTA/CTA";
 import Footer from "../_components/modules/Footer/Footer";
 import type { Metadata } from "next";
+import Providers from "./providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,10 +16,14 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className="font-manrope-medium bg-black-8 flex flex-col gap-16 lg:gap-20 2xl:gap-24">
-                {children}
-                <CTA />
-                <Footer />
+            <body className="font-manrope-medium">
+                <Providers>
+                    <div className="bg-gray-99 dark:bg-black-8 flex flex-col gap-16 lg:gap-20 2xl:gap-24">
+                        {children}
+                        <CTA />
+                        <Footer />
+                    </div>
+                </Providers>
             </body>
         </html>
     );
