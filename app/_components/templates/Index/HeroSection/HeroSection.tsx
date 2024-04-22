@@ -4,7 +4,7 @@ import React from 'react'
 export default function HeroSection() {
     return (
         <div className='relative'>
-            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-b from-black-8/50 to-black-8/100 z-10"></div>
+            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-b from-black-8/50 to-gray-90 dark:to-black-8/100 z-10"></div>
             <Image
                 src="/images/banners/hero-section.png"
                 alt="video-trailer"
