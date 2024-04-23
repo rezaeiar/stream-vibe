@@ -2,9 +2,9 @@ import React from 'react'
 import PlansTable from './PlansTable/PlansTable'
 import PlansTableMobile from './PlansTableMobile/PlansTableMobile'
 
-export default function Plans() {
+export default function Features() {
     return (
-        <div>
+        <div id='features'>
             <div className="container">
                 <div className="flex flex-col gap-14 2xl:gap-20">
                     <div className="flex flex-col gap-2.5 2xl:gap-3.5">

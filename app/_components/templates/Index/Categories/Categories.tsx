@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Categories() {
     return (
-        <div>
+        <div id='categories'>
             <div className="container">
                 <div className="flex flex-col gap-10 lg:gap-14 2xl:gap-20">
                     <div className="flex flex-col lg:flex-row gap-5 justify-between">

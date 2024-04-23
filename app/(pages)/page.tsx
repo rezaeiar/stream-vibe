@@ -3,7 +3,7 @@ import HeroSection from "../_components/templates/Index/HeroSection/HeroSection"
 import Categories from "../_components/templates/Index/Categories/Categories";
 import Devices from "../_components/templates/Index/Devices/Devices";
 import FAQ from "../_components/modules/FAQ/FAQ";
-import Pricing from "../_components/modules/Pricing/Pricing";
+import Plans from "../_components/modules/Plans/Plans";
 
 export default function Home() {
     return (
@@ -12,7 +12,7 @@ export default function Home() {
             <Categories />
             <Devices />
             <FAQ />
-            <Pricing />
+            <Plans />
         </>
     );
 }

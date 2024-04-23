@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function Pricing() {
+export default function Plans() {
     return (
-        <div>
+        <div id='plans'>
             <div className="container">
                 <div className="flex flex-col gap-10 lg:gap-14 2xl:gap-20">
                     <div className="flex flex-col lg:flex-row gap-5">

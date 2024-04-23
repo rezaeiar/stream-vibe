@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function ContactForm() {
     return (
-        <div>
+        <div id='contact-us'>
             <div className="container">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 2xl:gap-20">
                     <div className="col-span-1 flex flex-col gap-8 lg:gap-10 2xl:gap-12">

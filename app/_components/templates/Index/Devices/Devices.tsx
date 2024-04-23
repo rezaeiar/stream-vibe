@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Devices() {
     return (
-        <div>
+        <div id='devices'>
             <div className="container">
                 <div className="flex flex-col gap-10 lg:gap-14 2xl:gap-20">
                     <div className="flex flex-col lg:flex-row gap-5">

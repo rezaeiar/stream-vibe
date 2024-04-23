@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FAQ() {
     return (
-        <div>
+        <div id='faq'>
             <div className="container">
                 <div className="flex flex-col gap-10 lg:gap-14 2xl:gap-20">
                     <div className="flex justify-between items-end gap-5">
