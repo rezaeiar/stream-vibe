@@ -20,12 +20,12 @@ export default function Plans() {
                             <ul className="flex text-sm 2xl:text-lg gap-2 2xl:gap-2.5">
                                 <li>
                                     <Link href='/' className="block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-white hover:bg-gray-95 dark:hover:bg-black-10">
-                                        Home
+                                        Monthly
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href='/' className="block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-white hover:bg-gray-95 dark:hover:bg-black-10">
-                                        Movies & Shows
+                                        Yearly
                                     </Link>
                                 </li>
                             </ul>

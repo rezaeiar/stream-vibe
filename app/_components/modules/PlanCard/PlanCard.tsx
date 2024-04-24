@@ -3,7 +3,7 @@ import { PlanCardProps } from '@/app/_types/components/PlanCard/PlanCard.types'
 
 export default function PlanCard({ title, description, price }: PlanCardProps) {
     return (
-        <div className="p-6 lg:p-10 2xl:p-12 bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-xl flex flex-col gap-8 lg:gap-10 2xl:gap-12">
+        <div className="p-6 lg:p-10 2xl:p-12 bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-xl flex flex-col gap-8 lg:gap-10 2xl:gap-12 shadow-lg">
             <div className="flex flex-col gap-2.5 lg:gap-3 2xl:gap-4">
                 <h4 className='font-manrope-bold text-lg lg:text-xl 2xl:text-2xl text-black-6 dark:text-white'>
                     {title}
