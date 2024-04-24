@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className='bg-gray-99 dark:bg-black-6'>
+        <div className='bg-gray-99 dark:bg-black-6 border-t border-gray-95 shadow-lg dark:shadow-none'>
             <div className="container">
                 <div className="flex flex-col">
                     <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-5 2xl:gap-8 py-12 lg:py-20 2xl:py-28">
