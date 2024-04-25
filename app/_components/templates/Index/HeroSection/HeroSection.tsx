@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function HeroSection() {
     return (
-        <div className='relative'>
-            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-b from-black-8/50 to-gray-90 dark:to-black-8/100 z-10"></div>
+        <div className='relative bg-gray-90 dark:bg-transparent'>
+            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-b from-black-6/60 to-black-8/100 z-10"></div>
             <Image
                 src="/images/banners/hero-section.png"
                 alt="video-trailer"
@@ -27,7 +27,7 @@ export default function HeroSection() {
                     </div>
                     <div className="flex flex-col justify-center items-center gap-8 lg:gap-12 2xl:gap-14 w-full">
                         <div className="flex flex-col gap-2.5 2xl:gap3.5">
-                            <h1 className='text-white text-3xl lg:text-5xl 2xl:text-6xl font-manrope-bold text-center'>
+                            <h1 className='text-gray-99 text-3xl lg:text-5xl 2xl:text-6xl font-manrope-bold text-center'>
                                 The Best Streaming Experience
                             </h1>
                             <span className='block lg:hidden text-gray-60 text-center text-sm'>
