@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import CategoryCard from '@/app/_components/modules/CategoryCard/CategoryCard'
 import React from 'react'
 
 export default function Categories() {
@@ -16,7 +17,7 @@ export default function Categories() {
                             </span>
                         </div>
                         <div className="hidden lg:flex lg:gap-3 2xl:gap-4 items-center bg-gray-99 dark:bg-black-6 lg:p-3 2xl:p-4 border border-gray-90 dark:border-black-12 lg:rounded-lg 2xl:rounded-xl">
-                            <button className="flex lg:p-2.5 2xl:p-3.5 rounded-md border border-gray-90 dark:border-black-12 text-black-6 dark:text-gray-99 bg-gray-95 dark:bg-black-10">
+                            <button className="flex lg:p-2.5 2xl:p-3.5 rounded-md border border-gray-90 dark:border-black-12 text-black-6 dark:text-gray-99 bg-gray-95 hover:bg-gray-97 dark:bg-black-10 dark:hover:bg-black-12 transition-colors">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-7 2xl:w-7">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                                 </svg>
@@ -27,7 +28,7 @@ export default function Categories() {
                                 <div className="h-1 w-4 bg-gray-70 dark:bg-black-20 rounded-full"></div>
                                 <div className="h-1 w-4 bg-gray-70 dark:bg-black-20 rounded-full"></div>
                             </div>
-                            <button className="flex lg:p-2.5 2xl:p-3.5 rounded-md border border-gray-90 dark:border-black-12 text-black-6 dark:text-gray-99 bg-gray-95 dark:bg-black-10">
+                            <button className="flex lg:p-2.5 2xl:p-3.5 rounded-md border border-gray-90 dark:border-black-12 text-black-6 dark:text-gray-99 bg-gray-95 hover:bg-gray-97 dark:bg-black-10 dark:hover:bg-black-12 transition-colors">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-7 2xl:w-7">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                 </svg>
@@ -35,111 +36,11 @@ export default function Categories() {
                         </div>
                     </div>
                     <div className="grid grid-cols-2 lg:grid-cols-5 gap-5 2xl:gap-8">
-                        <div className="relative bg-black-10 border border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden">
-                            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-t from-black-10/100 to-black-10/0 z-0"></div>
-                            <div className="z-0">
-                                <Image
-                                    src="/images/assets/as1.png"
-                                    alt="video-trailer"
-                                    width="100"
-                                    height="100"
-                                    sizes="100vw"
-                                    className="w-full"
-                                />
-                            </div>
-                            <div className="flex justify-between items-center text-white z-50 relative">
-                                <span className='text-sm lg:text-base 2xl:text-lg font-manrope-semibold'>
-                                    Action
-                                </span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 lg:w-6 lg:h-6 2xl:w-8 2xl:h-8">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div className="relative bg-black-10 border border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden">
-                            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-t from-black-10/100 to-black-10/0 z-0"></div>
-                            <div className="z-0">
-                                <Image
-                                    src="/images/assets/as1.png"
-                                    alt="video-trailer"
-                                    width="100"
-                                    height="100"
-                                    sizes="100vw"
-                                    className="w-full"
-                                />
-                            </div>
-                            <div className="flex justify-between items-center text-white z-50 relative">
-                                <span className='text-sm lg:text-base 2xl:text-lg font-manrope-semibold'>
-                                    Action
-                                </span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 lg:w-6 lg:h-6 2xl:w-8 2xl:h-8">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div className="relative bg-black-10 border border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden">
-                            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-t from-black-10/100 to-black-10/0 z-0"></div>
-                            <div className="z-0">
-                                <Image
-                                    src="/images/assets/as1.png"
-                                    alt="video-trailer"
-                                    width="100"
-                                    height="100"
-                                    sizes="100vw"
-                                    className="w-full"
-                                />
-                            </div>
-                            <div className="flex justify-between items-center text-white z-50 relative">
-                                <span className='text-sm lg:text-base 2xl:text-lg font-manrope-semibold'>
-                                    Action
-                                </span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 lg:w-6 lg:h-6 2xl:w-8 2xl:h-8">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div className="relative bg-black-10 border border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden">
-                            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-t from-black-10/100 to-black-10/0 z-0"></div>
-                            <div className="z-0">
-                                <Image
-                                    src="/images/assets/as1.png"
-                                    alt="video-trailer"
-                                    width="100"
-                                    height="100"
-                                    sizes="100vw"
-                                    className="w-full"
-                                />
-                            </div>
-                            <div className="flex justify-between items-center text-white z-50 relative">
-                                <span className='text-sm lg:text-base 2xl:text-lg font-manrope-semibold'>
-                                    Action
-                                </span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 lg:w-6 lg:h-6 2xl:w-8 2xl:h-8">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div className="relative bg-black-10 border border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden">
-                            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-t from-black-10/100 to-black-10/0 z-0"></div>
-                            <div className="z-0">
-                                <Image
-                                    src="/images/assets/as1.png"
-                                    alt="video-trailer"
-                                    width="100"
-                                    height="100"
-                                    sizes="100vw"
-                                    className="w-full"
-                                />
-                            </div>
-                            <div className="flex justify-between items-center text-white z-50 relative">
-                                <span className='text-sm lg:text-base 2xl:text-lg font-manrope-semibold'>
-                                    Action
-                                </span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 lg:w-6 lg:h-6 2xl:w-8 2xl:h-8">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                </svg>
-                            </div>
-                        </div>
+                        <CategoryCard title='Action' />
+                        <CategoryCard title='Adventure' />
+                        <CategoryCard title='Comedy' />
+                        <CategoryCard title='Drama' />
+                        <CategoryCard title='Horror' />
                     </div>
                 </div>
             </div>
