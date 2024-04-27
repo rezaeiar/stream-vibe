@@ -8,11 +8,11 @@ export default function Features() {
             <div className="container">
                 <div className="flex flex-col gap-14 2xl:gap-20">
                     <div className="flex flex-col gap-2.5 2xl:gap-3.5">
-                        <h3 className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-bold text-white'>
-                            We Provide you streaming experience across various devices.
+                        <h3 className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-bold text-black-6 dark:text-white'>
+                            Compare our plans and find the right one for you
                         </h3>
-                        <span className='text-sm lg:text-base 2xl:text-lg font-manrope-regular text-gray-60'>
-                            With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere.
+                        <span className='text-sm lg:text-base 2xl:text-lg font-manrope-regular text-black-30 dark:text-gray-60'>
+                            StreamVibe offers three different plans to fit your needs: Basic, Standard, and Premium. Compare the features of each plan and choose the one that's right for you.
                         </span>
                     </div>
                     <PlansTable />
