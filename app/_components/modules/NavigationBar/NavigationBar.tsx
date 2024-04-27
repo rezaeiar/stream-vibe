@@ -53,7 +53,7 @@ export default function NavigationBar({ float }: NavigationBarProps) {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/subscriptions' className="block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-gray-99 hover:bg-gray-95 dark:hover:bg-black-10">
+                                    <Link href='/subscription' className="block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-gray-99 hover:bg-gray-95 dark:hover:bg-black-10">
                                         Subscriptions
                                     </Link>
                                 </li>
@@ -68,8 +68,8 @@ export default function NavigationBar({ float }: NavigationBarProps) {
                             <ThemeSwitcher />
                         </div>
                     </div>
-                    <div className="block lg:hidden p-3 bg-black-10 border-3 border-black-15">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-white">
+                    <div className="block lg:hidden p-3 bg-gray-95 dark:bg-black-10 border-3 border-gray-75 dark:border-black-15 rounded-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 border-black-6 dark:text-gray-99">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
                         </svg>
                     </div>
