@@ -15,7 +15,7 @@ export default function ContactForm() {
                                 We're here to help you with any problems you may be having with our product.
                             </p>
                         </div>
-                        <div className="border-4 rounded-md aspect-square border-gray-75 dark:border-black-15">
+                        <div className="border-4 rounded-lg 2xl:rounded-xl aspect-square border-gray-75 dark:border-black-15 overflow-hidden">
                             <Image
                                 src="/images/banners/contact-form.png"
                                 alt="video-trailer"
@@ -27,31 +27,31 @@ export default function ContactForm() {
                         </div>
                     </div>
                     <div className="col-span-1 lg:col-span-2 bg-gray-99 dark:bg-black-6 border border-gray-75 dark:border-black-15 rounded-xl p-6 lg:p-10 2xl:p-12 grid grid-cols-1 lg:grid-cols-2 gap-x-5 2xl:gap-x-12 gap-y-5 lg:gap-y-10 2xl:gap-y-12 h-fit">
-                        <div className="flex flex-col gap-3 2xl:gap-4 font-manrope-semibold text-black-6 dark:text-gray-99">
+                        <div className="flex flex-col gap-3 2xl:gap-4 font-manrope-semibold text-black-6 dark:text-gray-99 col-span-2 lg:col-span-1">
                             <label htmlFor="" className="text-base 2xl:text-lg">
                                 First Name
                             </label>
                             <input type="text" placeholder='Enter First Name' className='focus:!border-red-51 outline-none p-4 2xl:p-5 text-sm 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-regular bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-md 2xl:rounded-lg' />
                         </div>
-                        <div className="flex flex-col gap-3 2xl:gap-4 font-manrope-semibold text-black-6 dark:text-gray-99">
+                        <div className="flex flex-col gap-3 2xl:gap-4 font-manrope-semibold text-black-6 dark:text-gray-99 col-span-2 lg:col-span-1">
                             <label htmlFor="" className="text-base 2xl:text-lg">
                                 Last Name
                             </label>
                             <input type="text" placeholder='Enter Last Name' className='focus:!border-red-51 outline-none p-4 2xl:p-5 text-sm 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-regular bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-md 2xl:rounded-lg' />
                         </div>
-                        <div className="flex flex-col gap-3 2xl:gap-4 font-manrope-semibold text-black-6 dark:text-gray-99">
+                        <div className="flex flex-col gap-3 2xl:gap-4 font-manrope-semibold text-black-6 dark:text-gray-99 col-span-2 lg:col-span-1">
                             <label htmlFor="" className="text-base 2xl:text-lg">
                                 Email
                             </label>
                             <input type="text" placeholder='Enter Email' className='focus:!border-red-51 outline-none p-4 2xl:p-5 text-sm 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-regular bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-md 2xl:rounded-lg' />
                         </div>
-                        <div className="flex flex-col gap-3 2xl:gap-4 font-manrope-semibold text-black-6 dark:text-gray-99">
+                        <div className="flex flex-col gap-3 2xl:gap-4 font-manrope-semibold text-black-6 dark:text-gray-99 col-span-2 lg:col-span-1">
                             <label htmlFor="" className="text-base 2xl:text-lg">
                                 Phone Number
                             </label>
                             <input type="text" placeholder='Enter Phone Number' className='focus:!border-red-51 outline-none p-4 2xl:p-5 text-sm 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-regular bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-md 2xl:rounded-lg' />
                         </div>
-                        <div className="flex flex-col gap-3 2xl:gap-4 font-manrope-semibold text-black-6 dark:text-gray-99 col-span-1 lg:col-span-2">
+                        <div className="flex flex-col gap-3 2xl:gap-4 font-manrope-semibold text-black-6 dark:text-gray-99 col-span-2 lg:col-span-2">
                             <label htmlFor="" className="text-base 2xl:text-lg">
                                 Message
                             </label>
