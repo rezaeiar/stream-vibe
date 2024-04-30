@@ -1,5 +1,24 @@
 {
     "footer": {
-        "Home": "Home"
+        "Home": "Home",
+        "Movies": "Movies",
+        "Shows": "Shows",
+        "Support": "Support",
+        "Subscription": "Subscription",
+        "Connect With Us": "Connect With Us",
+        "Categories": "Categories",
+        "Devices": "Devices",
+        "Plans": "Plans",
+        "FAQ": "FAQ",
+        "Genres": "Genres",
+        "Trending": "Trending",
+        "New Release": "New Release",
+        "Popular": "Popular",
+        "Contact Us": "Contact Us",
+        "Features": "Features",
+        "copy-right": "@{year} streamvibe, All Rights Reserved",
+        "Terms of Use": "Terms of Use",
+        "Privacy Policy": "Privacy Policy",
+        "Cookie Policy": "Cookie Policy"
     }
 }

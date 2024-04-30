@@ -22,4 +22,24 @@
         font-family: Manrope-Bold;
         src: url(/fonts/Manrope/Manrope-Bold.ttf);
     }
+
+    @font-face {
+        font-family: Vazir-Regular;
+        src: url(/fonts/Vazir/Vazirmatn-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: Vazir-Medium;
+        src: url(/fonts/Vazir/Vazirmatn-Medium.ttf);
+    }
+
+    @font-face {
+        font-family: Vazir-SemiBold;
+        src: url(/fonts/Vazir/Vazirmatn-SemiBold.ttf);
+    }
+
+    @font-face {
+        font-family: Vazir-Bold;
+        src: url(/fonts/Vazir/Vazirmatn-Bold.ttf);
+    }
 }

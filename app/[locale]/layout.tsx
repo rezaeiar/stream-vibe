@@ -22,9 +22,10 @@ const RootLayout: React.FC<Props> = ({
     params: { locale }
 }) => {
     const messages = useMessages()
+    const dir = locale === "fa" ? "rtl" : "ltr"
     return (
         <html lang={locale}>
-            <body className="font-manrope-medium">
+            <body className="font-manrope-medium" dir={dir}>
                 <NextIntlClientProvider messages={messages}>
                     <Providers>
                         <div className="bg-gray-97 dark:bg-black-8 flex flex-col gap-16 lg:gap-20 2xl:gap-24">

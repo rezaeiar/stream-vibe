@@ -45,6 +45,10 @@ const config: Config = {
                 "manrope-medium": "Manrope-Medium",
                 "manrope-semibold": "Manrope-SemiBold",
                 "manrope-bold": "Manrope-Bold",
+                "vazir-regular": "Vazir-Regular",
+                "vazir-medium": "Vazir-Medium",
+                "vazir-semibold": "Vazir-SemiBold",
+                "vazir-bold": "Vazir-Bold",
             },
             backgroundImage: {
                 'cta-pattern': "url('/images/banners/CTA.png')",

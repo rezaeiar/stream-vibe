@@ -1,5 +1,24 @@
 {
     "footer": {
-        "Home": "خانه"
+        "Home": "خانه",
+        "Movies": "فیلم ها",
+        "Shows": "درحال اکران",
+        "Support": "پشتیبانی",
+        "Subscription": "اشتراک",
+        "Connect With Us": "ارتباط با ما",
+        "Categories": "دسته بندی ها",
+        "Devices": "سیستم های نمایش",
+        "Plans": "تعرفه ها",
+        "FAQ": "سوالات متداول",
+        "Genres": "ژانر ها",
+        "Trending": "پرطرفدار",
+        "New Release": "آخرین انتشارها",
+        "Popular": "محبوب",
+        "Contact Us": "ارتباط با ما",
+        "Features": "امکانات",
+        "copy-right": "@{year} استریم وایب، کلیه حقوق محفوظ است",
+        "Terms of Use": "شرایط استفاده",
+        "Privacy Policy": "سیاست حفظ حریم خصوصی",
+        "Cookie Policy": "خط مشی کوکی"
     }
 }

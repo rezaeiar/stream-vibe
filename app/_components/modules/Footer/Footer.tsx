@@ -1,7 +1,5 @@
-import Image from 'next/image'
-import { Link } from '@/navigation'
-import React from 'react'
 import { useTranslations } from 'next-intl'
+import { Link } from '@/navigation'
 
 export default function Footer() {
     const t = useTranslations("footer")
@@ -11,120 +9,128 @@ export default function Footer() {
                 <div className="flex flex-col">
                     <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-5 2xl:gap-8 py-12 lg:py-20 2xl:py-28">
                         <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-6">
-                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold'>
+                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold rtl:font-vazir-semibold'>
                                 <Link href={'/movies'}>
                                     {t("Home")}
                                 </Link>
                             </h4>
-                            <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5'>
+                            <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5 font-manrope-medium rtl:font-vazir-medium'>
                                 <li>
-                                    <Link href='/#categories' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Categories
+                                    <Link href='/#categories' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Categories")}
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/#devices' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Devices
+                                    <Link href='/#devices' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Devices")}
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/#plans' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Plans
+                                    <Link href='/#plans' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Plans")}
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/#faq' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        FAQ
+                                    <Link href='/#faq' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("FAQ")}
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-6">
-                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold'>
-                                Movies
+                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold rtl:font-vazir-semibold'>
+                                <Link href='/movies'>
+                                    {t("Movies")}
+                                </Link>
                             </h4>
-                            <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5'>
+                            <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5 font-manrope-medium rtl:font-vazir-medium'>
                                 <li>
-                                    <Link href='/' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Gernes
+                                    <Link href='/movies#genres' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Genres")}
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Trending
+                                    <Link href='/movies#trending' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Trending")}
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        New Release
+                                    <Link href='/movies#new-release' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("New Release")}
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Popular
+                                    <Link href='/movies#popular' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Popular")}
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-6">
-                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold'>
-                                Shows
+                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold rtl:font-vazir-semibold'>
+                                <Link href='/movies'>
+                                    {t("Shows")}
+                                </Link>
                             </h4>
-                            <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5'>
+                            <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5 font-manrope-medium rtl:font-vazir-medium'>
                                 <li>
-                                    <Link href='/' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Gernes
+                                    <Link href='/movies#genres' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Genres")}
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Trending
+                                    <Link href='/movies#trending' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Trending")}
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        New Release
+                                    <Link href='/movies#new-release' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("New Release")}
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Popular
+                                    <Link href='/movies#popular' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Popular")}
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-6">
-                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold'>
-                                Support
+                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold rtl:font-vazir-semibold'>
+                                <Link href='/support'>
+                                    {t("Support")}
+                                </Link>
                             </h4>
-                            <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5'>
+                            <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5 font-manrope-medium rtl:font-vazir-medium'>
                                 <li>
-                                    <Link href='/support#contact-us' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Contact Us
+                                    <Link href='/support#contact-us' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Contact Us")}
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-6">
-                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold'>
-                                Subscription
+                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold rtl:font-vazir-semibold'>
+                                <Link href='/subscription'>
+                                    {t("Subscription")}
+                                </Link>
                             </h4>
-                            <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5'>
+                            <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5 font-manrope-medium rtl:font-vazir-medium'>
                                 <li>
-                                    <Link href='/subscription#plans' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Plans
+                                    <Link href='/subscription#plans' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Plans")}
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/subscription#features' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg font-manrope-medium'>
-                                        Features
+                                    <Link href='/subscription#features' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                        {t("Features")}
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-6">
-                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold'>
-                                Connect With Us
+                            <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold rtl:font-vazir-semibold'>
+                                {t("Connect With Us")}
                             </h4>
                             <div className="flex gap-2.5">
                                 <Link href='' className="flex p-3 2xl:p-4 rounded-md border border-gray-90 dark:border-black-15 bg-gray-95 dark:bg-black-10">
@@ -160,26 +166,26 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col lg:flex-row justify-between pb-5 lg:pb-10 2xl:pb-12 gap-5 text-sm lg:text-base 2xl:text-lg font-manrope-regular text-black-30 dark:text-gray-60 pt-5 2xl:pt-6 border-t border-gray-75 dark:border-black-15">
+                    <div className="flex flex-col lg:flex-row justify-between pb-5 lg:pb-10 2xl:pb-12 gap-5 text-sm lg:text-base 2xl:text-lg font-manrope-regular rtl:font-vazir-regular text-black-30 dark:text-gray-60 pt-5 2xl:pt-6 border-t border-gray-75 dark:border-black-15">
                         <span>
-                            @2024 streamvib, All Rights Reserved
+                            {t("copy-right", { year: 2024 })}
                         </span>
                         <ul className="flex justify-between items-center gap-5">
                             <li>
                                 <Link href=''>
-                                    Terms of Use
+                                    {t("Terms of Use")}
                                 </Link>
                             </li>
                             <span className='h-5 w-px bg-gray-75 dark:bg-black-15'></span>
                             <li>
                                 <Link href=''>
-                                    Privacy Policy
+                                    {t("Privacy Policy")}
                                 </Link>
                             </li>
                             <span className='h-5 w-px bg-gray-75 dark:bg-black-15'></span>
                             <li>
                                 <Link href=''>
-                                    Cookie Policy
+                                    {t("Cookie Policy")}
                                 </Link>
                             </li>
                         </ul>
