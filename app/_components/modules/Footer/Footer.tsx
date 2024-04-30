@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/navigation'
 import React from 'react'
 import { useTranslations } from 'next-intl'
 
@@ -12,7 +12,9 @@ export default function Footer() {
                     <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-5 2xl:gap-8 py-12 lg:py-20 2xl:py-28">
                         <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-6">
                             <h4 className='text-black-6 dark:text-white text-base lg:text-lg 2xl:text-xl font-manrope-semibold'>
-                                {t("Home")}
+                                <Link href={'/movies'}>
+                                    {t("Home")}
+                                </Link>
                             </h4>
                             <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5'>
                                 <li>
