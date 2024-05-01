@@ -31,5 +31,18 @@
         "description": "Join StreamVibe and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!",
         "Monthly": "Monthly",
         "Yearly": "Yearly"
+    },
+    "plan-card": {
+        "Basic Plan": "Basic Plan",
+        "Standard Plan": "Standard Plan",
+        "Premium Plan": "Premium Plan",
+        "basic-plan-description": "Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.",
+        "standard-plan-description": "Access to a wider selection of movies and shows, including most new releases and exclusive content.",
+        "premium-plan-description": "Access to a widest selection of movies and shows, including all new releases and Offline Viewing.",
+        "month": "month",
+        "year": "year",
+        "Choose Plan": "Choose Plan",
+        "Start Free Trial": "Start Free Trial",
+        "Rials": "Rials"
     }
 }

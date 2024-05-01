@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export default function Plans() {
     const t = useTranslations("plans")
-    const [subscriptionType, setSubscriptionType] = useState("monthly")
+    const [subscriptionType, setSubscriptionType] = useState("month")
     return (
         <div id='plans'>
             <div className="container">
@@ -22,12 +22,12 @@ export default function Plans() {
                         <div className="w-fit h-fit shrink-0 self-end border bg-gray-99 dark:bg-black-6 border-gray-90 dark:border-black-12 py-2 2xl:py-2.5 px-2 2xl:px-2.5 rounded-xl">
                             <ul className="flex text-sm 2xl:text-lg gap-2 2xl:gap-2.5 font-manrope-medium rtl:font-vazir-medium">
                                 <li>
-                                    <button className={`block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-white hover:bg-gray-95 dark:hover:bg-black-10 ${subscriptionType === "monthly" ? "bg-gray-95 ": "dark:bg-black-10"}`} onClick={() => setSubscriptionType("monthly")}>
+                                    <button className={`block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-white hover:bg-gray-95 dark:hover:bg-black-10 ${subscriptionType === "month" ? "bg-gray-95 ": "dark:bg-black-10"}`} onClick={() => setSubscriptionType("month")}>
                                         {t("Monthly")}
                                     </button>
                                 </li>
                                 <li>
-                                    <button className={`block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-white hover:bg-gray-95 dark:hover:bg-black-10 ${subscriptionType === "yearly" ? "bg-gray-95 ": "dark:bg-black-10"}`} onClick={() => setSubscriptionType("yearly")}>
+                                    <button className={`block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-white hover:bg-gray-95 dark:hover:bg-black-10 ${subscriptionType === "year" ? "bg-gray-95 ": "dark:bg-black-10"}`} onClick={() => setSubscriptionType("year")}>
                                         {t("Yearly")}
                                     </button>
                                 </li>
@@ -35,9 +35,9 @@ export default function Plans() {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 2xl:gap-8">
-                        <PlanCard title="Basic Plan" description="Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles." price={9.99} />
-                        <PlanCard title="Standard Plan" description="Access to a wider selection of movies and shows, including most new releases and exclusive content" price={12.99} />
-                        <PlanCard title="Premium Plan" description="Access to a widest selection of movies and shows, including all new releases and Offline Viewing" price={14.99} />
+                        <PlanCard title="Basic Plan" description="basic-plan-description" price={390000} type={subscriptionType} />
+                        <PlanCard title="Standard Plan" description="standard-plan-description" price={790000} type={subscriptionType} />
+                        <PlanCard title="Premium Plan" description="premium-plan-description" price={1090000} type={subscriptionType} />
                     </div>
                 </div>
             </div>
