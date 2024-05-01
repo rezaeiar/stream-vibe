@@ -22,12 +22,12 @@ export default function Plans() {
                         <div className="w-fit h-fit shrink-0 self-end border bg-gray-99 dark:bg-black-6 border-gray-90 dark:border-black-12 py-2 2xl:py-2.5 px-2 2xl:px-2.5 rounded-xl">
                             <ul className="flex text-sm 2xl:text-lg gap-2 2xl:gap-2.5 font-manrope-medium rtl:font-vazir-medium">
                                 <li>
-                                    <button className={`block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-white hover:bg-gray-95 dark:hover:bg-black-10 ${subscriptionType === "month" ? "bg-gray-95 ": "dark:bg-black-10"}`} onClick={() => setSubscriptionType("month")}>
+                                    <button className={`block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-white hover:bg-gray-95 dark:hover:bg-black-10 ${subscriptionType === "month" ? "bg-gray-95 dark:bg-black-10": ""}`} onClick={() => setSubscriptionType("month")}>
                                         {t("Monthly")}
                                     </button>
                                 </li>
                                 <li>
-                                    <button className={`block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-white hover:bg-gray-95 dark:hover:bg-black-10 ${subscriptionType === "year" ? "bg-gray-95 ": "dark:bg-black-10"}`} onClick={() => setSubscriptionType("year")}>
+                                    <button className={`block py-3 2xl:py-3.5 px-5 2xl:px-6 text-black-15 dark:text-gray-75 rounded-lg transition-colors hover:text-black-6 dark:hover:text-white hover:bg-gray-95 dark:hover:bg-black-10 ${subscriptionType === "year" ? "bg-gray-95 dark:bg-black-10": ""}`} onClick={() => setSubscriptionType("year")}>
                                         {t("Yearly")}
                                     </button>
                                 </li>
