@@ -20,5 +20,10 @@
         "Terms of Use": "Terms of Use",
         "Privacy Policy": "Privacy Policy",
         "Cookie Policy": "Cookie Policy"
+    },
+    "cta": {
+        "title": "Start your free trial today!",
+        "description": "This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.",
+        "button": "Start a Free Trail"
     }
 }
