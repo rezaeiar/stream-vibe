@@ -25,5 +25,11 @@
         "title": "Start your free trial today!",
         "description": "This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.",
         "button": "Start a Free Trail"
+    },
+    "plans": {
+        "title": "Choose the plan that's right for you",
+        "description": "Join StreamVibe and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!",
+        "Monthly": "Monthly",
+        "Yearly": "Yearly"
     }
 }
