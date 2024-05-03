@@ -44,5 +44,18 @@
         "Choose Plan": "Choose Plan",
         "Start Free Trial": "Start Free Trial",
         "Rials": "Rials"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "description": "Got questions? We've got answers! Check out our FAQ section to find answers to the most common questions about StreamVibe.",
+        "button": "Ask a Question",
+        "first-question": "What is StreamVibe?",
+        "second-question": "How do I sign up for StreamVibe?",
+        "third-question": "How much does StreamVibe cost?",
+        "fourth-question": "What is the StreamVibe free trial?",
+        "fifth-question": "What content is available on StreamVibe?",
+        "sixth-question": "How do I contact StreamVibe customer support?",
+        "seventh-question": "How can I watch StreamVibe?",
+        "eighth-question": "What are the StreamVibe payment methods?"
     }
 }
