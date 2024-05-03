@@ -50,6 +50,7 @@
         "description": "Got questions? We've got answers! Check out our FAQ section to find answers to the most common questions about StreamVibe.",
         "button": "Ask a Question",
         "first-question": "What is StreamVibe?",
+        "first-answer": "StreamVibe is a streaming service that allows you to watch movies and shows on demand.",
         "second-question": "How do I sign up for StreamVibe?",
         "third-question": "How much does StreamVibe cost?",
         "fourth-question": "What is the StreamVibe free trial?",

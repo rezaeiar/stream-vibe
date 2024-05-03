@@ -21,14 +21,18 @@ export default function FAQ() {
                         </button>
                     </div>
                     <ul className='grid grid-cols-1 lg:grid-cols-2 gap-x-10 2xl:gap-x-20'>
-                        <FAQCard index={0} title='first-question' />
-                        <FAQCard index={1} title='second-question' />
-                        <FAQCard index={2} title='third-question' />
-                        <FAQCard index={3} title='fourth-question' />
-                        <FAQCard index={4} title='fifth-question' />
-                        <FAQCard index={5} title='sixth-question' />
-                        <FAQCard index={6} title='seventh-question' />
-                        <FAQCard index={7} title='eighth-question' />
+                        <div className="flex flex-col">
+                            <FAQCard index={0} question='first-question' answer='first-answer' />
+                            <FAQCard index={1} question='second-question' answer='first-answer' />
+                            <FAQCard index={2} question='third-question' answer='first-answer' />
+                            <FAQCard index={3} question='fourth-question' answer='first-answer' />
+                        </div>
+                        <div className="flex flex-col">
+                            <FAQCard index={4} question='fifth-question' answer='first-answer' />
+                            <FAQCard index={5} question='sixth-question' answer='first-answer' />
+                            <FAQCard index={6} question='seventh-question' answer='first-answer' />
+                            <FAQCard index={7} question='eighth-question' answer='first-answer' />
+                        </div>
                     </ul>
                 </div>
             </div>

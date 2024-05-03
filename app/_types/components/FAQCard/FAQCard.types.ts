@@ -1,4 +1,5 @@
 export type FAQCardProps = {
     index: number,
-    title: string,
+    question: string,
+    answer: string
 }
