@@ -1,19 +1,19 @@
-import React from 'react'
-import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 import DeviceCard from '../DeviceCard/DeviceCard'
 
 export default function Devices() {
+    const t = useTranslations("devices")
     return (
         <div id='devices'>
             <div className="container">
                 <div className="flex flex-col gap-10 lg:gap-14 2xl:gap-20">
                     <div className="flex flex-col lg:flex-row gap-5">
                         <div className="flex flex-col gap-2.5 2xl:gap-3.5">
-                            <h3 className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-bold text-black-6 dark:text-white'>
-                                We Provide you streaming experience across various devices.
+                            <h3 className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-bold rtl:font-vazir-bold text-black-6 dark:text-white'>
+                                {t("title")}
                             </h3>
-                            <span className='text-sm lg:text-base 2xl:text-lg font-manrope-regular text-black-30 dark:text-gray-60'>
-                                With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment.
+                            <span className='text-sm lg:text-base 2xl:text-lg font-manrope-regular rtl:font-vazir-regular text-black-30 dark:text-gray-60'>
+                                {t("description")}
                             </span>
                         </div>
                     </div>

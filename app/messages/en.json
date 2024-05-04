@@ -58,5 +58,9 @@
         "sixth-question": "How do I contact StreamVibe customer support?",
         "seventh-question": "How can I watch StreamVibe?",
         "eighth-question": "What are the StreamVibe payment methods?"
+    },
+    "devices": {
+        "title": "We Provide you streaming experience across various devices.",
+        "description": "With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere."
     }
 }
