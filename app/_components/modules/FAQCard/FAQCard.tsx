@@ -10,8 +10,10 @@ import MuiAccordionSummary, {
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 
 const Accordion = styled((props: AccordionProps) => (
-    <MuiAccordion disableGutters elevation={0} square {...props} className='bg-transparent' />
+    <MuiAccordion disableGutters elevation={0} square {...props} className='bg-transparent before:hidden' />
 ))();
+
+
 
 const AccordionSummary = styled((props: AccordionSummaryProps) => (
     <MuiAccordionSummary
@@ -20,6 +22,8 @@ const AccordionSummary = styled((props: AccordionSummaryProps) => (
 ))();
 
 const AccordionDetails = styled(MuiAccordionDetails)();
+
+
 
 export default function FAQCard({ index, question, answer }: FAQCardProps) {
     const t = useTranslations("faq")
@@ -36,7 +40,10 @@ export default function FAQCard({ index, question, answer }: FAQCardProps) {
                     <div className="bg-gray-90 dark:bg-black-12 border border-gray-75 dark:border-black-15 rounded-md lg:rounded-lg 2xl:rounded-xl font-manrope-semibold text-base lg:text-lg 2xl:text-xl text-black-6 dark:text-gray-99 aspect-square text-center flex items-center justify-center w-12 lg:w-14 2xl:w-16 shrink-0 h-fit">
                         {index + 1}
                     </div>
-                    <Accordion expanded={expanded === `q`} onChange={handleChange(`q`)}>
+                    <Accordion
+                        expanded={expanded === `q`}
+                        onChange={handleChange(`q`)}
+                    >
                         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
                             <h5 className='font-manrope-medium rtl:font-vazir-medium text-lg lg:text-xl 2xl:text-2xl text-black-6 dark:text-gray-99'>
                                 {t(question)}
