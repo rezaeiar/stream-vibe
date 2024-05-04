@@ -7,7 +7,7 @@ export default function HeroSection() {
         <div className='relative'>
             <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-b from-black-6/60 via-black-6/60 to-black-8/100 z-10 before:h-6 before:w-full before:bg-black-8 before:rounded-b-full before:absolute before:-bottom-6"></div>
             <Image
-                src="/images/banners/hero-section.png"
+                src="/images/banners/hero.jpg"
                 alt="video-trailer"
                 width="100"
                 height="100"
