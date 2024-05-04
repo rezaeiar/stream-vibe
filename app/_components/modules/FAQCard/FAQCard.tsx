@@ -27,7 +27,7 @@ const AccordionDetails = styled(MuiAccordionDetails)();
 
 export default function FAQCard({ index, question, answer }: FAQCardProps) {
     const t = useTranslations("faq")
-    const [expanded, setExpanded] = React.useState<string | false>(`q${index}`);
+    const [expanded, setExpanded] = React.useState<string | false>(false);
 
     const handleChange =
         (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
@@ -56,9 +56,17 @@ export default function FAQCard({ index, question, answer }: FAQCardProps) {
                         </AccordionDetails>
                     </Accordion>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-8 2xl:w-8 text-black-6 dark:text-gray-99 shrink-0 mt-3">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-                </svg>
+                {
+                    expanded ? (
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-8 2xl:w-8 text-black-6 dark:text-gray-99 shrink-0 mt-3">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14" />
+                        </svg>
+                    ) : (
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-8 2xl:w-8 text-black-6 dark:text-gray-99 shrink-0 mt-3">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                        </svg>
+                    )
+                }
             </div>
             <div className="h-px w-full absolute bottom-0 left-0 bg-gradient-to-r from-red-45/0 via-red-45/100 to-red-45/0"></div>
         </li>

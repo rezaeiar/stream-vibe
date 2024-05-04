@@ -7,7 +7,7 @@ export default function FAQ() {
         <div id='faq'>
             <div className="container">
                 <div className="flex flex-col gap-10 lg:gap-14 2xl:gap-20">
-                    <div className="flex justify-between items-end gap-5">
+                    <div className="flex flex-col lg:flex-row justify-between items-end gap-5">
                         <div className="flex flex-col gap-2.5 2xl:gap-3.5">
                             <h3 className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-bold rtl:font-vazir-bold text-black-6 dark:text-white'>
                                 {t("title")}
