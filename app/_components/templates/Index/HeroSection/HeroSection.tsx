@@ -1,7 +1,8 @@
+import { useTranslations } from 'next-intl'
 import Image from 'next/image'
-import React from 'react'
 
 export default function HeroSection() {
+    const t = useTranslations("hero-section")
     return (
         <div className='relative bg-gray-90 dark:bg-transparent'>
             <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-b from-gray-99/10 dark:from-black-6/60 via-black-6/60 to-gray-97 dark:to-black-8/100 z-10"></div>
@@ -27,17 +28,14 @@ export default function HeroSection() {
                     </div>
                     <div className="flex flex-col justify-center items-center gap-8 lg:gap-12 2xl:gap-14 w-full">
                         <div className="flex flex-col gap-2.5 2xl:gap3.5">
-                            <h1 className='text-black-6 dark:text-gray-99 text-3xl lg:text-5xl 2xl:text-6xl font-manrope-bold text-center'>
-                                The Best Streaming Experience
+                            <h1 className='text-black-6 dark:text-gray-99 text-3xl lg:text-5xl 2xl:text-6xl font-manrope-bold rtl:font-vazir-bold text-center'>
+                                {t("headline")}
                             </h1>
-                            <span className='block lg:hidden text-black-30 dark:text-gray-60 text-center text-sm'>
-                                StreamVibe is the best streaming experience for watching your favorite movies and shows on demand, anytime, anywhere.
+                            <span className='block lg:hidden font-manrope-medium rtl:font-vazir-medium text-black-25 dark:text-gray-60 text-center text-sm'>
+                                {t("description-mobile")}
                             </span>
-                            <span className='hidden lg:block 2xl:hidden text-black-30 dark:text-gray-60 text-center text-sm'>
-                                StreamVibe is the best streaming experience for watching your favorite movies and shows on demand, anytime, anywhere. With StreamVibe, you can enjoy a wide variety of content, including the latest blockbusters, classic movies, popular TV shows, and more. You can also create your own watchlists, so you can easily find the content you want to watch.
-                            </span>
-                            <span className='hidden 2xl:block text-black-30 dark:text-gray-60 text-center text-lg'>
-                                StreamVibe is the best streaming experience for watching your favorite movies and shows on demand, anytime, anywhere. With StreamVibe, you can enjoy a wide variety of content, including the latest blockbusters, classic movies, popular TV shows, and more. You can also create your own watchlists, so you can easily find the content you want to watch.
+                            <span className='hidden lg:block font-manrope-medium rtl:font-vazir-medium text-black-25 dark:text-gray-60 text-center text-sm'>
+                                {t("description-desktop")}
                             </span>
                         </div>
                         <button className='bg-red-45 text-sm 2xl:text-lg rounded-md py-3.5 2xl:py-4 px-5 text-white w-fit'>

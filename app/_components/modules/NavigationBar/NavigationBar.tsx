@@ -67,7 +67,7 @@ export default function NavigationBar({ float }: NavigationBarProps) {
                             <ThemeSwitcher />
                         </div>
                     </div>
-                    <div className="block lg:hidden p-3 bg-gray-95 dark:bg-black-10 border-3 border-gray-75 dark:border-black-15 rounded-md">
+                    <div className="block lg:hidden p-3 bg-gray-95 dark:bg-black-10 border-3 border-gray-75 dark:border-black-15 rounded-md cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 border-black-6 dark:text-gray-99">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
                         </svg>
