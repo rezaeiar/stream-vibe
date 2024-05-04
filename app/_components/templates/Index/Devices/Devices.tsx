@@ -18,12 +18,12 @@ export default function Devices() {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 2xl:gap-8">
-                        <DeviceCard title="Smartphones" description="StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store" image="smartphone.svg" />
-                        <DeviceCard title="Tablet" description="StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store" image="tablet.svg" />
-                        <DeviceCard title="Smart TV" description="StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store" image="smart-tv.svg" />
-                        <DeviceCard title="Laptops" description="StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store" image="laptops.svg" />
-                        <DeviceCard title="Gaming Consoles" description="StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store" image="gaming-consoles.svg" />
-                        <DeviceCard title="VR Headsets" description="StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store" image="vr-headsets.svg" />
+                        <DeviceCard title="Smartphones" description="smartphones-description" image="smartphone.svg" />
+                        <DeviceCard title="Tablet" description="smartphones-description" image="tablet.svg" />
+                        <DeviceCard title="Smart TV" description="smartphones-description" image="smart-tv.svg" />
+                        <DeviceCard title="Laptops" description="smartphones-description" image="laptops.svg" />
+                        <DeviceCard title="Gaming Consoles" description="smartphones-description" image="gaming-consoles.svg" />
+                        <DeviceCard title="VR Headsets" description="smartphones-description" image="vr-headsets.svg" />
                     </div>
                 </div>
             </div>

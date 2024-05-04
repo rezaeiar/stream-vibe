@@ -61,6 +61,13 @@
     },
     "devices": {
         "title": "We Provide you streaming experience across various devices.",
-        "description": "With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere."
+        "description": "With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere.",
+        "Smartphones": "Smartphones",
+        "smartphones-description": "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store",
+        "Tablet": "Tablet",
+        "Smart TV": "Smart TV",
+        "Laptops": "Laptops",
+        "Gaming Consoles": "Gaming Consoles",
+        "VR Headsets": "VR Headsets"
     }
 }
