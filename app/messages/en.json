@@ -69,5 +69,11 @@
         "Laptops": "Laptops",
         "Gaming Consoles": "Gaming Consoles",
         "VR Headsets": "VR Headsets"
+    },
+    "navigation-bar": {
+        "Home": "Home",
+        "Movies & Shows": "Movies & Shows",
+        "Support": "Support",
+        "Subscriptions": "Subscriptions"
     }
 }

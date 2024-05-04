@@ -69,5 +69,11 @@
         "Laptops": "لپتاپ",
         "Gaming Consoles": "کنسول های بازی",
         "VR Headsets": "هدست واقعیت مجازی"
+    },
+    "navigation-bar": {
+        "Home": "خانه",
+        "Movies & Shows": "فیلم ها & اکران ها",
+        "Support": "پشتیبانی",
+        "Subscriptions": "اشتراک ها"
     }
 }
