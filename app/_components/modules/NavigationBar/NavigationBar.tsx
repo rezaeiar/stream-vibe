@@ -1,5 +1,5 @@
 import { NavigationBarProps } from "@/app/_types/components/NavigationBar/NavigationBar.types"
-import Link from "next/link"
+import { Link } from '@/navigation'
 import Image from "next/image"
 import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher"
 import { useTranslations } from "next-intl"
