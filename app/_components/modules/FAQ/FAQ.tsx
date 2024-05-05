@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl'
 import FAQCard from '../FAQCard/FAQCard'
+import { Link } from '@/navigation'
 
 export default function FAQ() {
     const t = useTranslations("faq")
@@ -16,9 +17,9 @@ export default function FAQ() {
                                 {t("description")}
                             </span>
                         </div>
-                        <button className='bg-red-45 text-sm 2xl:text-lg font-manrope-medium rtl:font-vazir-medium rounded-md py-3.5 2xl:py-4 px-5 text-white lg:w-fit'>
+                        <Link href={'support/#contact-form'} className='bg-red-45 text-sm 2xl:text-lg font-manrope-medium rtl:font-vazir-medium rounded-md py-3.5 2xl:py-4 px-5 text-white lg:w-fit'>
                             {t("button")}
-                        </button>
+                        </Link>
                     </div>
                     <ul className='grid grid-cols-1 lg:grid-cols-2 gap-x-10 2xl:gap-x-20'>
                         <div className="flex flex-col">

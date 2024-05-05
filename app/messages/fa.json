@@ -97,5 +97,37 @@
         "message-placeholder": "پیام خود را وارد کنید",
         "checkbox": "من با شرایط استفاده و سیاست حفظ حریم خصوصی موافقم.",
         "button": "ارسال پیام"
+    },
+    "features": {
+        "title": "برنامه های ما را مقایسه کنید و برنامه مناسب خود را پیدا کنید",
+        "description": "استریم وایب سه طرح مختلف را متناسب با نیازهای شما ارائه می دهد: پایه و اقتصادی و ویژه. ویژگی های هر طرح را مقایسه کنید و یکی را که برای شما مناسب است انتخاب کنید."
+    },
+    "features-table": {
+        "Features": "امکانات",
+        "Price": "قیمت",
+        "Content": "محتوا",
+        "Devices": "دستگاه ها",
+        "Free Trail": "امتحان رایگان",
+        "Cancel Anytime": "لغو هر زمان",
+        "HDR": "HDR",
+        "Dolby Atmos": "Dolby Atmos",
+        "Ad - Free": "بدون تبلیغات",
+        "Offline Viewing": "مشاهده آفلاین",
+        "Family Sharing": "اشتراک گذاری خانواده",
+        "Basic": "پایه",
+        "Standard": "اقتصادی",
+        "Premium": "ویژه",
+        "Popular": "محبوب",
+        "price/month": "{price}ریال/ماه",
+        "Access to a wide selection of movies and shows, including some new releases": "دسترسی به مجموعه گسترده ای از فیلم ها و نمایش ها، از جمله برخی از نسخه های جدید.",
+        "Access to a wider selection of movies and shows, including most new releases and exclusive content": "دسترسی به مجموعه گسترده‌تری از فیلم‌ها و نمایش‌ها، از جمله بیشتر نسخه‌های جدید و محتوای انحصاری",
+        "Access to a widest selection of movies and shows, including all new releases and Offline Viewing": "دسترسی به گسترده ترین مجموعه از فیلم ها و نمایش ها، از جمله همه نسخه های جدید و مشاهده آفلاین",
+        "watch-on": "در {number} دستگاه به طور همزمان تماشا کنید",
+        "7 Days": "7 روز",
+        "Yes": "بله",
+        "No": "خیر",
+        "Yes, for all titles": "بله، برای همه عناوین.",
+        "Yes, for select titles": "بله، برای عناوین انتخاب شده.",
+        "up-to-family": "بله، حداکثر {number} عضو خانواده."
     }
 }

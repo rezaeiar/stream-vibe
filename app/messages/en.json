@@ -97,5 +97,37 @@
         "message-placeholder": "Enter your Message",
         "checkbox": "I agree with Terms of Use and Privacy Policy.",
         "button": "Send Message"
+    },
+    "features": {
+        "title": "Compare our plans and find the right one for you",
+        "description": "StreamVibe offers three different plans to fit your needs: Basic, Standard, and Premium. Compare the features of each plan and choose the one that's right for you."
+    },
+    "features-table": {
+        "Features": "Features",
+        "Price": "Price",
+        "Content": "Content",
+        "Devices": "Devices",
+        "Free Trail": "Free Trail",
+        "Cancel Anytime": "Cancel Anytime",
+        "HDR": "HDR",
+        "Dolby Atmos": "Dolby Atmos",
+        "Ad - Free": "Ad - Free",
+        "Offline Viewing": "Offline Viewing",
+        "Family Sharing": "Family Sharing",
+        "Basic": "Basic",
+        "Standard": "Standard",
+        "Premium": "Premium",
+        "Popular": "Popular",
+        "price/month": "{price}Rials/Month",
+        "Access to a wide selection of movies and shows, including some new releases": "Access to a wide selection of movies and shows, including some new releases.",
+        "Access to a wider selection of movies and shows, including most new releases and exclusive content": "Access to a wider selection of movies and shows, including most new releases and exclusive content ",
+        "Access to a widest selection of movies and shows, including all new releases and Offline Viewing": "Access to a widest selection of movies and shows, including all new releases and Offline Viewing",
+        "watch-on": "Watch on {number} device simultaneously",
+        "7 Days": "7 Days",
+        "Yes": "Yes",
+        "No": "No",
+        "Yes, for all titles": "Yes, for all titles.",
+        "Yes, for select titles": "Yes, for select titles.",
+        "up-to-family": "Yes, up to {number} family members."
     }
 }

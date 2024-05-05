@@ -103,7 +103,7 @@ export default function Footer() {
                             </h4>
                             <ul className='flex flex-col gap-2 lg:gap-2.5 2xl:gap-3.5 font-manrope-medium rtl:font-vazir-medium'>
                                 <li>
-                                    <Link href='/support#contact-us' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
+                                    <Link href='/support#contact-form' className='text-black-30 dark:text-gray-60 text-sm lg:text-base 2xl:text-lg'>
                                         {t("Contact Us")}
                                     </Link>
                                 </li>
