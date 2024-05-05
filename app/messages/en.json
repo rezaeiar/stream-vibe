@@ -81,5 +81,21 @@
         "description-desktop": "StreamVibe is the best streaming experience for watching your favorite movies and shows on demand, anytime, anywhere. With StreamVibe, you can enjoy a wide variety of content, including the latest blockbusters, classic movies, popular TV shows, and more. You can also create your own watchlists, so you can easily find the content you want to watch.",
         "description-mobile": "StreamVibe is the best streaming experience for watching your favorite movies and shows on demand, anytime, anywhere.",
         "button": " Start Watching Now"
+    },
+    "contact-form": {
+        "title": "Welcome to our support page!",
+        "description": "We're here to help you with any problems you may be having with our product.",
+        "firstname": "First Name",
+        "firstname-placeholder": "Enter First Name",
+        "lastname": "Last Name",
+        "lastname-placeholder": "Enter Last Name",
+        "email": "Email",
+        "email-placeholder": "Enter Email",
+        "phone-number": "Phone Number",
+        "phone-number-placeholder": "Enter Phone Number",
+        "message": "Message",
+        "message-placeholder": "Enter your Message",
+        "checkbox": "I agree with Terms of Use and Privacy Policy.",
+        "button": "Send Message"
     }
 }
