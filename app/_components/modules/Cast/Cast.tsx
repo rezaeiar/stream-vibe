@@ -1,21 +1,22 @@
 import Image from 'next/image'
-import React from 'react'
+import { useTranslations } from 'next-intl'
 
 export default function Cast() {
+    const t = useTranslations("cast")
     return (
         <div className='flex flex-col gap-5 2xl:gap-8'>
-            <div className="flex flex-col gap-3.5 p-6 lg:p-10 2xl:p-12 rounded-lg 2xl:rounded-xl bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 text-sm lg:text-base 2xl:text-lg font-manrope-medium">
+            <div className="flex flex-col gap-3.5 p-6 lg:p-10 2xl:p-12 rounded-lg 2xl:rounded-xl bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 text-sm lg:text-base 2xl:text-lg font-manrope-medium rtl:font-vazir-medium">
                 <h5 className='text-black-30 dark:text-gray-60'>
-                    Description
+                    {t("Description")}
                 </h5>
                 <span className='text-black-6 dark:text-gray-99'>
                     When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.
                 </span>
             </div>
-            <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-8 p-6 lg:p-10 2xl:p-12 rounded-lg 2xl:rounded-xl bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 text-sm lg:text-base 2xl:text-lg font-manrope-medium">
+            <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-8 p-6 lg:p-10 2xl:p-12 rounded-lg 2xl:rounded-xl bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 text-sm lg:text-base 2xl:text-lg font-manrope-medium rtl:font-vazir-medium">
                 <div className="flex justify-between items-center">
                     <h5 className='text-black-30 dark:text-gray-60 '>
-                        Cast
+                        {t("Cast")}
                     </h5>
                     <div className="flex gap-2 lg:gap-2.5">
                         <div className="flex p-3 2xl:p-3.5 bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-full">
@@ -113,13 +114,13 @@ export default function Cast() {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-8 p-6 lg:p-10 2xl:p-12 rounded-lg 2xl:rounded-xl bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 text-sm lg:text-base 2xl:text-lg font-manrope-medium">
+            <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-8 p-6 lg:p-10 2xl:p-12 rounded-lg 2xl:rounded-xl bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 text-sm lg:text-base 2xl:text-lg font-manrope-medium rtl:font-vazir-medium">
                 <div className="flex justify-between items-center">
                     <h5 className='text-black-30 dark:text-gray-60'>
-                        Reviews
+                        {t("Reviews")}
                     </h5>
                     <button className='bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 text-sm 2xl:text-lg rounded-md py-3.5 2xl:py-4 text-black-6 dark:text-gray-99 px-3'>
-                        Add Your Review
+                        {t("Add Your Review")}
                     </button>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-2.5 2xl:gap-5">
@@ -129,8 +130,8 @@ export default function Cast() {
                                 <h6 className='text-black-6 dark:text-gray-99 font-manrope-medium text-base lg:text-lg 2xl:text-xl'>
                                     Aniket Roy
                                 </h6>
-                                <span className='text-sm lg:text-base 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-medium'>
-                                    From India
+                                <span className='text-sm lg:text-base 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-medium rtl:font-vazir-medium'>
+                                    {t("From India")}
                                 </span>
                             </div>
                             <div className="p-1.5 bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-full flex items-center gap-1">
@@ -166,8 +167,8 @@ export default function Cast() {
                                 <h6 className='text-black-6 dark:text-gray-99 font-manrope-medium text-base lg:text-lg 2xl:text-xl'>
                                     Aniket Roy
                                 </h6>
-                                <span className='text-sm lg:text-base 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-medium'>
-                                    From India
+                                <span className='text-sm lg:text-base 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-medium rtl:font-vazir-medium'>
+                                    {t("From USA")}
                                 </span>
                             </div>
                             <div className="p-1.5 bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-full flex items-center gap-1">

@@ -1,21 +1,22 @@
 import Image from 'next/image'
-import React from 'react'
+import { useTranslations } from 'next-intl'
 
 export default function Episodes() {
+    const t = useTranslations("episodes")
     return (
         <div className='p-6 lg:p-8 2xl:p-10 rounded-lg lg:rounded-xl bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 flex flex-col gap-6 lg:gap-8 2xl:gap-10'>
-            <h3 className='text-lg lg:text-xl 2xl:text-2xl font-manrope-semibold text-black-6 dark:text-gray-99'>
-                Seasons and Episodes
+            <h3 className='text-lg lg:text-xl 2xl:text-2xl font-manrope-semibold rtl:font-vazir-semibold text-black-6 dark:text-gray-99'>
+                {t("Seasons and Episodes")}
             </h3>
             <div className="flex flex-col gap-4 2xl:gap-5">
                 <div className="flex flex-col gap-4 lg:gap-5 bg-gray-99 dark:bg-black-6 border border-gray-75 dark:border-black-15 py-7 2xl:py-8 px-5 lg:px-10 2xl:px-12 rounded-xl">
                     <div className="flex items-center justify-between">
                         <div className="flex gap-2.5 items-center">
-                            <h4 className='text-base lg:text-xl 2xl:text-2xl font-manrope-semibold text-black-6 dark:text-gray-99'>
-                                Season 01
+                            <h4 className='text-base lg:text-xl 2xl:text-2xl font-manrope-semibold rtl:font-vazir-semibold text-black-6 dark:text-gray-99'>
+                                {t("Season")} 01
                             </h4>
-                            <span className='text-sm lg:text-base 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-medium'>
-                                9 Episodes
+                            <span className='text-sm lg:text-base 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-medium rtl:font-vazir-medium'>
+                                9 {t("Episodes")}
                             </span>
                         </div>
                         <div className="flex">
@@ -86,11 +87,11 @@ export default function Episodes() {
                 <div className="flex flex-col gap-4 lg:gap-5 bg-gray-99 dark:bg-black-6 border border-gray-75 dark:border-black-15 py-7 2xl:py-8 px-5 lg:px-10 2xl:px-12 rounded-xl">
                     <div className="flex items-center justify-between">
                         <div className="flex gap-2.5 items-center">
-                            <h4 className='text-base lg:text-xl 2xl:text-2xl font-manrope-semibold text-black-6 dark:text-gray-99'>
-                                Season 01
+                            <h4 className='text-base lg:text-xl 2xl:text-2xl font-manrope-semibold rtl:font-vazir-semibold text-black-6 dark:text-gray-99'>
+                                {t("Season")} 01
                             </h4>
-                            <span className='text-sm lg:text-base 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-medium'>
-                                9 Episodes
+                            <span className='text-sm lg:text-base 2xl:text-lg text-black-30 dark:text-gray-60 font-manrope-medium rtl:font-vazir-medium'>
+                                9 {t("Episodes")}
                             </span>
                         </div>
                         <div className="flex">

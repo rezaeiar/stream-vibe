@@ -129,5 +129,34 @@
         "Yes, for all titles": "بله، برای همه عناوین.",
         "Yes, for select titles": "بله، برای عناوین انتخاب شده.",
         "up-to-family": "بله، حداکثر {number} عضو خانواده."
+    },
+    "video-screen": {
+        "button": "مشاهده کردن"
+    },
+    "information": {
+        "Released Year": "سال انتشار",
+        "Available Languages": "زبان های موجود",
+        "India": "هندی",
+        "English": "انگلیسی",
+        "Kannada": "کانادایی",
+        "Persian": "فارسی",
+        "Turkey": "ترکی",
+        "Ratings": "رتبه بندی ها",
+        "Gernes": "ژانر ها",
+        "Music": "موسیقی",
+        "From USA": "از آمریکا",
+        "Director": "کارگردان",
+        "The Duffer Brothers": "برادران دافر"
+    },
+    "cast": {
+        "Description": "درباره فیلم",
+        "Cast": "قالب",
+        "Reviews": "نظرات",
+        "Add Your Review": "نظر خود را اضافه کنید"
+    },
+    "episodes": {
+        "Seasons and Episodes": "فصل ها و قسمت ها",
+        "Season": "فصل",
+        "Episodes": "قسمت"
     }
 }

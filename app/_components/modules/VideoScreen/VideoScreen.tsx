@@ -1,9 +1,10 @@
 import Image from 'next/image'
-import React from 'react'
+import { useTranslations } from 'next-intl'
 
 export default function VideoScreen() {
+    const t = useTranslations("video-screen")
     return (
-        <div className=''>
+        <div>
             <div className="container">
                 <div className="relative rounded-xl h-[468px] lg:h-[710px] 2xl:h-[834px] overflow-hidden">
                     <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-b from-black-8/0 to-black-8/100 z-10"></div>
@@ -26,8 +27,8 @@ export default function VideoScreen() {
                                 </span>
                             </div>
                             <div className="flex flex-col lg:flex-row gap-5 justify-center items-center">
-                                <button className='bg-red-45 text-sm 2xl:text-lg rounded-md py-3.5 2xl:py-4 px-5 text-white w-full lg:w-auto'>
-                                    Play Now
+                                <button className='bg-red-45 text-sm 2xl:text-lg font-manrope-medium rtl:font-vazir-medium rounded-md py-3.5 2xl:py-4 px-5 text-white w-full lg:w-auto'>
+                                    {t("button")}
                                 </button>
                                 <div className="flex gap-2.5 text-black-6 dark:text-gray-99">
                                     <button className="flex p-3 2xl:p-3.5 rounded-md border border-gray-75 dark:border-black-15 bg-gray-99 dark:bg-black-6">

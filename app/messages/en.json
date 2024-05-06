@@ -129,5 +129,34 @@
         "Yes, for all titles": "Yes, for all titles.",
         "Yes, for select titles": "Yes, for select titles.",
         "up-to-family": "Yes, up to {number} family members."
+    },
+    "video-screen": {
+        "button": "Play Now"
+    },
+    "information": {
+        "Released Year": "Released Year",
+        "Available Languages": "Available Languages",
+        "India": "India",
+        "English": "English",
+        "Kannada": "Kannada",
+        "Persian": "Persian",
+        "Turkey": "Turkey",
+        "Ratings": "Ratings",
+        "Gernes": "Gernes",
+        "Music": "Music",
+        "From USA": "From USA",
+        "Director": "Director",
+        "The Duffer Brothers": "The Duffer Brothers"
+    },
+    "cast": {
+        "Description": "Description",
+        "Cast": "Cast",
+        "Reviews": "Reviews",
+        "Add Your Review": "Add Your Review"
+    },
+    "episodes": {
+        "Seasons and Episodes": "Seasons and Episodes",
+        "Season": "Season",
+        "Episodes": "Episodes"
     }
 }
