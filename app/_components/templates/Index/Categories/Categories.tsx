@@ -21,19 +21,14 @@ export default function Categories() {
                             </span>
                         </div>
                         <div className="hidden lg:flex lg:gap-3 2xl:gap-4 items-center bg-gray-99 dark:bg-black-6 lg:p-3 2xl:p-4 border border-gray-90 dark:border-black-12 lg:rounded-lg 2xl:rounded-xl">
-                            <button className="swiper-button-next flex lg:p-2.5 2xl:p-3.5 rounded-md border border-gray-90 dark:border-black-12 text-black-6 dark:text-gray-99 bg-gray-95 hover:bg-gray-97 dark:bg-black-10 dark:hover:bg-black-12 transition-colors">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-7 2xl:w-7">
+                            <button className="category-prev disabled:bg-gray-97 dark:disabled:bg-black-8 flex lg:p-2.5 2xl:p-3.5 rounded-md border border-gray-90 dark:border-black-12 text-black-6 dark:text-gray-99 bg-gray-95 hover:bg-gray-97 dark:bg-black-10 dark:hover:bg-black-12 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-7 2xl:w-7 rtl:rotate-180">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                                 </svg>
                             </button>
-                            <div className="flex gap-1">
-                                <div className="h-1 w-4 bg-gray-70 dark:bg-black-20 rounded-full"></div>
-                                <div className="h-1 w-5 bg-red-45 rounded-full"></div>
-                                <div className="h-1 w-4 bg-gray-70 dark:bg-black-20 rounded-full"></div>
-                                <div className="h-1 w-4 bg-gray-70 dark:bg-black-20 rounded-full"></div>
-                            </div>
-                            <button className="flex lg:p-2.5 2xl:p-3.5 rounded-md border border-gray-90 dark:border-black-12 text-black-6 dark:text-gray-99 bg-gray-95 hover:bg-gray-97 dark:bg-black-10 dark:hover:bg-black-12 transition-colors">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-7 2xl:w-7">
+                            <div id='category-pagination' className="flex gap-1"></div>
+                            <button className="category-next disabled:bg-gray-97 dark:disabled:bg-black-8 flex lg:p-2.5 2xl:p-3.5 rounded-md border border-gray-90 dark:border-black-12 text-black-6 dark:text-gray-99 bg-gray-95 hover:bg-gray-97 dark:bg-black-10 dark:hover:bg-black-12 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-7 2xl:w-7 rtl:rotate-180">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                 </svg>
                             </button>
@@ -44,9 +39,16 @@ export default function Categories() {
                             slidesPerView={4}
                             spaceBetween={30}
                             pagination={{
+                                el: "#category-pagination",
+                                type: "bullets",
+                                bulletClass: "h-1 w-4 bg-gray-70 dark:bg-black-20 rounded-full",
+                                bulletActiveClass: "h-1 w-5 bg-red-45 dark:bg-red-45",
                                 clickable: true,
                             }}
-                            navigation={true}
+                            navigation={{
+                                prevEl: '.category-prev',
+                                nextEl: '.category-next',
+                            }}
                             modules={[Pagination, Navigation]}
                             className="h-auto w-full relative"
                         >
@@ -61,6 +63,12 @@ export default function Categories() {
                             </SwiperSlide>
                             <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
                                 <CategoryCard title='Drama' />
+                            </SwiperSlide>
+                            <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
+                                <CategoryCard title='Horror' />
+                            </SwiperSlide>
+                            <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
+                                <CategoryCard title='Horror' />
                             </SwiperSlide>
                             <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
                                 <CategoryCard title='Horror' />
