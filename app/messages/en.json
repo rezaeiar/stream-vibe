@@ -163,5 +163,11 @@
         "title": "Explore our wide variety of categories",
         "description": "Whether you're looking for a comedy to make you laugh, a drama to make you think, or a documentary to learn something new",
         "Our Genres": "Our Genres"
+    },
+    "movies-container": {
+        "Movies": "Movies"
+    },
+    "popular": {
+        "title": "Popular Top 10 In Genres"
     }
 }
