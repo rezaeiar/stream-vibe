@@ -158,5 +158,10 @@
         "Seasons and Episodes": "Seasons and Episodes",
         "Season": "Season",
         "Episodes": "Episodes"
+    },
+    "our-genres": {
+        "title": "Explore our wide variety of categories",
+        "description": "Whether you're looking for a comedy to make you laugh, a drama to make you think, or a documentary to learn something new",
+        "Our Genres": "Our Genres"
     }
 }

@@ -5,20 +5,26 @@ import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import { useTranslations } from 'next-intl';
+import { OurGenresProps } from '@/app/_types/components/OurGenres/OurGenres.types';
 
-export default function Categories() {
+export default function OurGenres({ title, description }: OurGenresProps) {
+    const t = useTranslations("our-genres")
     return (
         <div id='categories'>
             <div className="container">
                 <div className="flex flex-col gap-10 lg:gap-14 2xl:gap-20">
                     <div className="flex flex-col lg:flex-row gap-5 justify-between">
                         <div className="flex flex-col gap-2.5 2xl:gap-3.5">
-                            <h3 className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-bold text-black-6 dark:text-white'>
-                                Explore our wide variety of categories
+                            <h3 className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-bold rtl:font-vazir-bold text-black-6 dark:text-white'>
+                                {t(title)}
                             </h3>
-                            <span className='text-sm lg:text-base 2xl:text-lg font-manrope-regular text-black-30 dark:text-gray-60'>
-                                Whether you're looking for a comedy to make you laugh, a drama to make you think, or a documentary to learn something new
-                            </span>
+                            {
+                                !!description &&
+                                <span className='text-sm lg:text-base 2xl:text-lg font-manrope-regular rtl:font-vazir-regular text-black-30 dark:text-gray-60'>
+                                    {t(description)}
+                                </span>
+                            }
                         </div>
                         <div className="hidden lg:flex lg:gap-3 2xl:gap-4 items-center bg-gray-99 dark:bg-black-6 lg:p-3 2xl:p-4 border border-gray-90 dark:border-black-12 lg:rounded-lg 2xl:rounded-xl">
                             <button className="category-prev disabled:bg-gray-97 dark:disabled:bg-black-8 flex lg:p-2.5 2xl:p-3.5 rounded-md border border-gray-90 dark:border-black-12 text-black-6 dark:text-gray-99 bg-gray-95 hover:bg-gray-97 dark:bg-black-10 dark:hover:bg-black-12 transition-colors">
