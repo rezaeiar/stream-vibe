@@ -36,7 +36,7 @@ export default function Categories() {
                     </div>
                     <div className="gap-5 2xl:gap-8 relative">
                         <Swiper
-                            slidesPerView={4}
+                            slidesPerView={2}
                             spaceBetween={30}
                             pagination={{
                                 el: "#category-pagination",
@@ -48,6 +48,15 @@ export default function Categories() {
                             navigation={{
                                 prevEl: '.category-prev',
                                 nextEl: '.category-next',
+                            }}
+                            breakpoints={{
+                                1024: {
+                                    slidesPerView: 4
+                                },
+                                1536: {
+                                    width: 1024,
+                                    slidesPerView: 5,
+                                },
                             }}
                             modules={[Pagination, Navigation]}
                             className="h-auto w-full relative"
