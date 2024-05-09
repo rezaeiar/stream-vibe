@@ -172,5 +172,8 @@
     },
     "trending": {
         "title": "Trending Now"
+    },
+    "new-releases": {
+        "title": "New Releases"
     }
 }

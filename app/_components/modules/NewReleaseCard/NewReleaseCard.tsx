@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function NewReleaseCard({ dateOfRelease }: NewReleaseCardProps) {
     return (
-        <Link href={'/'} className="relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden flex flex-col gap-3 lg:gap-4 2xl:gap-5">
+        <Link href={'/'}>
             <div className="absolute top-0 left-0 h-full w-full dark:bg-gradient-to-t from-black-10/100 to-black-10/0 z-0"></div>
             <div className="z-0">
                 <Image
