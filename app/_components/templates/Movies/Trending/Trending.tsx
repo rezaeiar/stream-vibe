@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { useTranslations } from 'next-intl';
-import TrendingCard from '@/app/_components/modules/TrendingCard/TrendingCard';
+import TrendingCard from '@/app/_components/templates/Movies/TrendingCard/TrendingCard';
 
 export default function Trending() {
     const t = useTranslations("trending")

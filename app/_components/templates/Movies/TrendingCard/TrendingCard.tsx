@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function TrendingCard({ time, view }: TrendingCardProps) {
     return (
-        <Link href={'/'}>
+        <Link href={'/movies/1'}>
             <div className="absolute top-0 left-0 h-full w-full dark:bg-gradient-to-t from-black-10/100 to-black-10/0 z-0"></div>
             <div className="z-0">
                 <Image

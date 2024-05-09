@@ -1,5 +1,5 @@
 "use client"
-import CategoryCard from '@/app/_components/modules/CategoryCard/CategoryCard'
+import GenreCard from '../GenreCard/GenreCard';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -68,25 +68,25 @@ export default function OurGenres({ title, description }: OurGenresProps) {
                             className="h-auto w-full relative"
                         >
                             <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <CategoryCard title='Action' />
+                                <GenreCard title='Action' />
                             </SwiperSlide>
                             <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <CategoryCard title='Adventure' />
+                                <GenreCard title='Adventure' />
                             </SwiperSlide>
                             <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <CategoryCard title='Comedy' />
+                                <GenreCard title='Comedy' />
                             </SwiperSlide>
                             <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <CategoryCard title='Drama' />
+                                <GenreCard title='Drama' />
                             </SwiperSlide>
                             <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <CategoryCard title='Horror' />
+                                <GenreCard title='Horror' />
                             </SwiperSlide>
                             <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <CategoryCard title='Horror' />
+                                <GenreCard title='Horror' />
                             </SwiperSlide>
                             <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <CategoryCard title='Horror' />
+                                <GenreCard title='Horror' />
                             </SwiperSlide>
                         </Swiper>
                     </div>

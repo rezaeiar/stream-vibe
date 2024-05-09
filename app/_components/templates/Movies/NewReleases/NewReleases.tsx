@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { useTranslations } from 'next-intl';
-import NewReleaseCard from '@/app/_components/modules/NewReleaseCard/NewReleaseCard';
+import NewReleaseCard from '@/app/_components/templates/Movies/NewReleaseCard/NewReleaseCard';
 
 export default function NewReleases() {
     const t = useTranslations("new-releases")

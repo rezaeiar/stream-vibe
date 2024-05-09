@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { useTranslations } from 'next-intl';
-import PopularCard from '@/app/_components/modules/PopularCard/PopularCard';
+import PopularCard from '@/app/_components/templates/Movies/PopularCard/PopularCard';
 
 export default function Popular() {
     const t = useTranslations("popular")

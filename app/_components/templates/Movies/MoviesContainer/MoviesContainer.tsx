@@ -1,4 +1,4 @@
-import NewReleaseCard from '@/app/_components/modules/NewReleaseCard/NewReleaseCard'
+import NewReleaseCard from '@/app/_components/templates/Movies/NewReleaseCard/NewReleaseCard'
 import OurGenres from '@/app/_components/modules/OurGenres/OurGenres'
 import { useTranslations } from 'next-intl'
 import Popular from '../Popular/Popular'
