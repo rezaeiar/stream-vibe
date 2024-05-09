@@ -169,5 +169,8 @@
     },
     "popular": {
         "title": "Popular Top 10 In Genres"
+    },
+    "trending": {
+        "title": "Trending Now"
     }
 }

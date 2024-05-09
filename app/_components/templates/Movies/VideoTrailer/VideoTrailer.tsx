@@ -49,7 +49,7 @@ export default function VideoTrailer() {
                         </div>
                         <div className="hidden lg:flex justify-between items-center w-full text-black-6 dark:text-gray-99">
                             <button className="flex p-3 2xl:p-3.5 rounded-md border border-gray-75 dark:border-black-15 bg-gray-99 dark:bg-black-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-7 2xl:w-7">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-7 2xl:w-7 rtl:rotate-180">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                                 </svg>
                             </button>
@@ -60,7 +60,7 @@ export default function VideoTrailer() {
                                 <div className="h-1 w-4 bg-black-20 rounded-full"></div>
                             </div>
                             <button className="flex p-3 2xl:p-3.5 rounded-md border border-black-15 bg-gray-99 dark:bg-black-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-7 2xl:w-7">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:h-7 2xl:w-7 rtl:rotate-180">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                 </svg>
                             </button>
