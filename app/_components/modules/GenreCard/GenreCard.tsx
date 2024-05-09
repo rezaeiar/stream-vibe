@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Link from 'next/link'
+import { Link } from '@/navigation'
 import { GenreCardProps } from '@/app/_types/components/GenreCard/GenreCard.types'
 
 export default function GenreCard({ title }: GenreCardProps) {

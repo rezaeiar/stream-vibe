@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+import { Link } from '@/navigation'
 
 export default function VideoScreen() {
     const t = useTranslations("video-screen")
@@ -27,9 +28,9 @@ export default function VideoScreen() {
                                 </span>
                             </div>
                             <div className="flex flex-col lg:flex-row gap-5 justify-center items-center">
-                                <button className='bg-red-45 text-sm 2xl:text-lg font-manrope-medium rtl:font-vazir-medium rounded-md py-3.5 2xl:py-4 px-5 text-white w-full lg:w-auto'>
+                                <Link href={'/movies/show/1'} className='bg-red-45 text-sm 2xl:text-lg font-manrope-medium rtl:font-vazir-medium rounded-md py-3.5 2xl:py-4 px-5 text-white w-full lg:w-auto'>
                                     {t("button")}
-                                </button>
+                                </Link>
                                 <div className="flex gap-2.5 text-black-6 dark:text-gray-99">
                                     <button className="flex p-3 2xl:p-3.5 rounded-md border border-gray-75 dark:border-black-15 bg-gray-99 dark:bg-black-6">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 2xl:w-7 2xl:h-7">

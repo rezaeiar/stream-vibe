@@ -1,6 +1,6 @@
 import { NewReleaseCardProps } from '@/app/_types/components/NewReleaseCard/NewReleaseCard.types'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/navigation'
 import React from 'react'
 
 export default function NewReleaseCard({ dateOfRelease }: NewReleaseCardProps) {

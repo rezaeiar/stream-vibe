@@ -1,6 +1,6 @@
 import { TrendingCardProps } from '@/app/_types/components/TrendingCard/TrendingCard.types'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/navigation'
 import React from 'react'
 
 export default function TrendingCard({ time, view }: TrendingCardProps) {
