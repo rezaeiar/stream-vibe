@@ -155,7 +155,9 @@
         "Add Your Review": "نظر خود را اضافه کنید"
     },
     "episodes": {
-        "Seasons and Episodes": "فصل ها و قسمت ها",
+        "Seasons and Episodes": "فصل ها و قسمت ها"
+    },
+    "episode": {
         "Season": "فصل",
         "Episodes": "قسمت"
     },

@@ -23,8 +23,6 @@ const AccordionSummary = styled((props: AccordionSummaryProps) => (
 
 const AccordionDetails = styled(MuiAccordionDetails)();
 
-
-
 export default function FAQCard({ index, question, answer }: FAQCardProps) {
     const t = useTranslations("faq")
     const [expanded, setExpanded] = React.useState<string | false>(false);

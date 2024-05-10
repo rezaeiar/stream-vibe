@@ -155,7 +155,9 @@
         "Add Your Review": "Add Your Review"
     },
     "episodes": {
-        "Seasons and Episodes": "Seasons and Episodes",
+        "Seasons and Episodes": "Seasons and Episodes"
+    },
+    "episode": {
         "Season": "Season",
         "Episodes": "Episodes"
     },
