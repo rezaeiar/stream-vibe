@@ -1,5 +1,5 @@
 import Information from "../Information/Information"
-import Episodes from "../Episodes/Episodes"
+import Episodes from "../../templates/Movies/Episodes/Episodes"
 import Cast from "../Cast/Cast"
 import { MovieInfoContainerProps } from "@/app/_types/components/MovieInfoContainer/MovieInfoContainer.types"
 

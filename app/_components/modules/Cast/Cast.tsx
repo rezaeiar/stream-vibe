@@ -19,12 +19,12 @@ export default function Cast() {
                         {t("Cast")}
                     </h5>
                     <div className="flex gap-2 lg:gap-2.5">
-                        <div className="flex p-3 2xl:p-3.5 bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-full">
+                        <div className="flex p-3 2xl:p-3.5 bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-full rtl:rotate-180">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 lg:w-6 lg:h-6 text-black-30 dark:text-gray-60">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                             </svg>
                         </div>
-                        <div className="flex p-3 2xl:p-3.5 bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-full">
+                        <div className="flex p-3 2xl:p-3.5 bg-gray-97 dark:bg-black-8 border border-gray-75 dark:border-black-15 rounded-full rtl:rotate-180">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 lg:w-6 lg:h-6 text-black-30 dark:text-gray-60">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg>

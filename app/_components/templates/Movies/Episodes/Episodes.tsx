@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl'
-import Episode from '../../templates/Movies/Episode/Episode'
+import Episode from '../Episode/Episode'
 
 export default function Episodes() {
     const t = useTranslations("episodes")
