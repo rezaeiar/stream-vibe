@@ -3,18 +3,18 @@ import React from 'react'
 import { Link } from '@/navigation'
 import { GenreCardProps } from '@/app/_types/components/GenreCard/GenreCard.types'
 
-export default function GenreCard({ title }: GenreCardProps) {
+export default function GenreCard({ title, cover }: GenreCardProps) {
     return (
         <Link href={'/movies/1'}>
-            <div className="absolute top-0 left-0 h-full w-full dark:bg-gradient-to-t from-black-10/100 to-black-10/0 z-0"></div>
-            <div className="z-0">
+            <div className="z-0 rounded-md 2xl:rounded-lg overflow-hidden relative">
+                <div className="absolute top-0 left-0 h-full w-full dark:bg-gradient-to-t from-black-10/100 to-black-10/0 z-0"></div>
                 <Image
-                    src="/images/assets/as1.png"
+                    src={`/images/assets/${cover}`}
                     alt="video-trailer"
                     width="100"
                     height="100"
                     sizes="100vw"
-                    className="w-full"
+                    className="w-full aspect-[4/6]"
                 />
             </div>
             <div className="flex justify-between items-center text-black-6 dark:text-gray-99 z-50 relative">

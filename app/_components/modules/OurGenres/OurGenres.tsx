@@ -14,7 +14,7 @@ export default function OurGenres({ title, description }: OurGenresProps) {
         <div id='categories'>
             <div className="container">
                 <div className="flex flex-col gap-10 lg:gap-14 2xl:gap-20">
-                    <div className="flex flex-col lg:flex-row gap-5 justify-between">
+                    <div className="flex flex-col lg:flex-row gap-4 justify-between">
                         <div className="flex flex-col gap-2.5 2xl:gap-3.5">
                             <h3 className='text-2xl lg:text-3xl 2xl:text-4xl font-manrope-bold rtl:font-vazir-bold text-black-6 dark:text-white'>
                                 {t(title)}
@@ -40,10 +40,10 @@ export default function OurGenres({ title, description }: OurGenresProps) {
                             </button>
                         </div>
                     </div>
-                    <div className="gap-5 2xl:gap-8 relative">
+                    <div className="gap-4 2xl:gap-8 relative">
                         <Swiper
                             slidesPerView={2}
-                            spaceBetween={30}
+                            spaceBetween={14}
                             pagination={{
                                 el: "#our-genres-pagination",
                                 type: "bullets",
@@ -57,7 +57,8 @@ export default function OurGenres({ title, description }: OurGenresProps) {
                             }}
                             breakpoints={{
                                 1024: {
-                                    slidesPerView: 4
+                                    slidesPerView: 4,
+                                    spaceBetween: 20
                                 },
                                 1536: {
                                     width: 1024,
@@ -67,26 +68,20 @@ export default function OurGenres({ title, description }: OurGenresProps) {
                             modules={[Pagination, Navigation]}
                             className="h-auto w-full relative"
                         >
-                            <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <GenreCard title='Action' />
+                            <SwiperSlide className='bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-4 lg:p-6 2xl:p-8 overflow-hidden'>
+                                <GenreCard title='Action' cover='images (1).jfif' />
                             </SwiperSlide>
-                            <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <GenreCard title='Adventure' />
+                            <SwiperSlide className='bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-4 lg:p-6 2xl:p-8 overflow-hidden'>
+                                <GenreCard title='Action' cover='Adventure.avif' />
                             </SwiperSlide>
-                            <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <GenreCard title='Comedy' />
+                            <SwiperSlide className='bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-4 lg:p-6 2xl:p-8 overflow-hidden'>
+                                <GenreCard title='Comedy' cover='images.jfif' />
                             </SwiperSlide>
-                            <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <GenreCard title='Drama' />
+                            <SwiperSlide className='bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-4 lg:p-6 2xl:p-8 overflow-hidden'>
+                                <GenreCard title='Drama' cover='images (2).jfif' />
                             </SwiperSlide>
-                            <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <GenreCard title='Horror' />
-                            </SwiperSlide>
-                            <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <GenreCard title='Horror' />
-                            </SwiperSlide>
-                            <SwiperSlide className='relative bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-5 lg:p-6 2xl:p-8 overflow-hidden'>
-                                <GenreCard title='Horror' />
+                            <SwiperSlide className='bg-gray-95 dark:bg-black-10 border border-gray-75 dark:border-black-15 rounded-lg 2xl:rounded-xl p-4 lg:p-6 2xl:p-8 overflow-hidden'>
+                                <GenreCard title='Horror' cover='images (3).jfif' />
                             </SwiperSlide>
                         </Swiper>
                     </div>

@@ -1,3 +1,4 @@
 export type GenreCardProps = {
-    title: string
+    title: string,
+    cover: string
 }
